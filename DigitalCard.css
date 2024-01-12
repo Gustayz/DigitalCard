@@ -1,3 +1,33 @@
 body {
-    background-color: black;
+    background-color: rgb(255, 255, 255);
+    color: rgb(36, 36, 36);
+}
+
+.heather
+{
+    cursor: pointer;
+    text-align: center;
+    font-size: 80px;
+    font-family:'Azeret Mono', monospace;
+
+}
+
+.Card
+{
+    position: absolute;
+    background-color: rgb(78, 172, 255);
+    width: 500px;
+    height: 300px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    box-shadow: 5px 5px 50px;
+    border: none;
 }
